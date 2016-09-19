@@ -33,12 +33,13 @@
     
     <!-- android -->
     <platform name="android">
-		<config-file target="res/xml/config.xml" parent="/*">
+		<!-- TODO: This is invalid. Not sure if it's needed -->
+		<!--<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="Gimbal">
 				<param name="android-package" value="com.gimbal.android.Gimbal" />
 				<param name="onload" value="true" />
 			</feature>
-		</config-file>
+		</config-file>-->
 		
 		<!-- Gimbal background processes -->
 		<config-file target="AndroidManifest.xml" parent="/manifest/application">
