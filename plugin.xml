@@ -33,14 +33,6 @@
     
     <!-- android -->
     <platform name="android">
-		<!-- TODO: This is invalid. Not sure if it's needed -->
-		<!--<config-file target="res/xml/config.xml" parent="/*">
-			<feature name="Gimbal">
-				<param name="android-package" value="com.gimbal.android.Gimbal" />
-				<param name="onload" value="true" />
-			</feature>
-		</config-file>-->
-		
 		<!-- Gimbal background processes -->
 		<config-file target="AndroidManifest.xml" parent="/manifest/application">
 			<service
@@ -50,7 +42,6 @@
 					<action android:name="$PACKAGE_NAME.service.GIMBAL_SERVICE" />
 				</intent-filter>
 			</service>
-			
 			<receiver
 				android:name="com.gimbal.internal.service.GimbalServiceStartStopReceiver"
 				android:enabled="true" >
