@@ -3,5 +3,5 @@
 ## Installation
 
 ```xml
-	cordova plugin add urbanairship-gimbal-sdk-cordova
+	cordova plugin add https://github.com/urbanairship/cordova-gimbal-sdk
 ```
