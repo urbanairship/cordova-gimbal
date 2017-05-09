@@ -1,0 +1,12 @@
+{
+  "name": "ubranairship-cordova-gimbal-sdk",
+  "version": "2.0.1",
+  "description": "Cordova plugin to install the Gimbal SDK",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urbanairship/cordova-gimbal-sdk.git"
+  },
+  "author": "Urban Airship",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/urbanairship/cordova-gimbal-sdk#readme"
+}
