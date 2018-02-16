@@ -3,6 +3,6 @@ repositories {
 }
 
 dependencies {
-	compile group: 'com.gimbal.android.v2', name: 'gimbal-sdk', version: '+'
-	compile group: 'com.gimbal.android.v2', name: 'gimbal-slf4j-impl', version: '+'
+	compile group: 'com.gimbal.android.v3', name: 'gimbal-sdk', version: '3.0'
+	compile group: 'com.gimbal.android.v3', name: 'gimbal-slf4j-impl', version: '3.0'
 }
