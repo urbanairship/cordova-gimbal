@@ -1,8 +1,9 @@
 repositories {
+	google()
 	mavenCentral()
 }
 
 dependencies {
-	compile group: 'com.gimbal.android.v3', name: 'gimbal-sdk', version: '3.1.1'
-	compile group: 'com.gimbal.android.v3', name: 'gimbal-slf4j-impl', version: '3.1.1'
+	implementation 'com.gimbal.android.v4:gimbal-sdk:4.7.0'
+	implementation 'com.gimbal.android.v4:gimbal-slf4j-impl:4.7.0'
 }
